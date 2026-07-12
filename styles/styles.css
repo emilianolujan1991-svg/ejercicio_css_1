@@ -1,0 +1,66 @@
+/*-- lleva dos guiones medios para  variables creadas por mi */
+:root {
+    --color-fondo-global: hsl(166, 95%, 22%);
+    --color-primario: hsl(164, 100%, 91%);
+    --color-secundario: hsl(0, 0%, 0%);
+    --color-acento: hsl(100, 0%, 100%);
+}
+
+/*---color del fondo para la web--*/
+html {
+    background-color: var(--color-fondo-global);
+}
+
+/*---modificaciones para el cuerpo de las paginas*/
+body {
+    color: var(--color-primario);
+    font-family: "Encode Sans", sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* modificacion del texto principal*/
+h1 {
+    color: var(--color-secundario);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(157, 246, 249);
+    padding-top: 20px;
+    
+}
+
+/*--tamaño del segundo titulo--*/
+h2 {
+    font-size: 2rem;
+}
+
+/*---este modifica a las class "marca" solamente ---*/
+.marca {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* modificacion de los parrafos*/ 
+p {
+    color: var(--color-acento);
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* modifica los enlaces de las paginas*/
+a {
+    text-decoration: none;
+    font-weight: 300;
+    font-style: oblique;
+    color: rgb(15, 0, 111);
+
+}
+
+/* modifica el pie de pagina */
+footer {
+    padding: 20px;
+    background-color: rgba(8, 155, 106, 0.763);
+    text-align: center;
+}
+ 
